@@ -1,0 +1,14 @@
+doctype
+html
+head
+    meta(charset="UTF-8")
+    title Convert Temperature
+    link(href="style.css" rel="stylesheet")
+body
+div
+    h1 Temperature Converter
+    input(type="text" id="temperature")
+    button(type="submit" onclick="utils.convertToFahrenheight()") C -> F
+    button(type="submit" onclick="utils.convertToCelcius()") F -> C
+    h3(id="display")
+script(src="app.js")

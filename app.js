@@ -1,6 +1,3 @@
-/**
- * Created by Christopher on 2/4/16.
- */
 
 var utils = {
 
@@ -20,5 +17,5 @@ var utils = {
         var answer = document.getElementById('display');
         answer.innerHTML = a + 'C';
     }
-    
-}
+
+};
